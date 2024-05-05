@@ -21,26 +21,6 @@ Flexibility: Easily add new pricing strategies or payment methods without modify
 Maintainability: Each strategy is isolated, improving code readability and maintainability.
 Open/Closed Principle: Open for extension (new strategies) but closed for modification (existing code).
 
-## Project Structure (Example)
-└── src
-    ├── Enums
-    |   ├── MembershipType.cs
-    |   ├── PaymentMethod.cs
-    ├── Strategies
-    |    ├── Pricing
-    |    |   ├── IPricingStrategy.cs
-    |    |   ├── RegularPricingStrategy.cs
-    |    |   ├── GoldPricingStrategy.cs
-    |    |   └── PremiumPricingStrategy.cs
-    |    └── Payment
-    |        ├── IPaymentStrategy.cs
-    |        ├── PayPalPaymentStrategy.cs
-    |        ├── VisaCardPaymentStrategy.cs
-    |        └── BankTransferPaymentStrategy.cs
-    ├── Checkout.cs
-    ├── Product.cs
-    └── Program.cs
-
 ## Usage
 ## Product Pricing:
 Based on the customer segment, select the appropriate PricingStrategy implementation.
