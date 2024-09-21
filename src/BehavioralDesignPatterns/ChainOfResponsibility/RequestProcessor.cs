@@ -1,4 +1,4 @@
-﻿namespace ChainOfResponsibility
+﻿namespace ChainOfResponsibilityPattern
 {
     public class RequestProcessor
     {

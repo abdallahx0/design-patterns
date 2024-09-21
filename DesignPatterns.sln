@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPattern", "src\Behav
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "src\BehavioralDesignPatterns\IteratorPattern\IteratorPattern.csproj", "{C9949060-4C38-4BC6-8AA3-517564803BF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "src\BehavioralDesignPatterns\ChainOfResponsibility\ChainOfResponsibility.csproj", "{11453369-E9A3-4907-9444-B7A508A4D3E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPattern", "src\BehavioralDesignPatterns\ChainOfResponsibility\ChainOfResponsibilityPattern.csproj", "{11453369-E9A3-4907-9444-B7A508A4D3E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

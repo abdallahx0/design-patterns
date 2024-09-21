@@ -1,4 +1,4 @@
-﻿using ChainOfResponsibility;
+﻿using ChainOfResponsibilityPattern;
 
 IMiddlewareHandler authenticationHandler = new AuthenticationMiddlewareHandler();
 IMiddlewareHandler authorizationHandler = new AuthorizationMiddlewareHandler();
