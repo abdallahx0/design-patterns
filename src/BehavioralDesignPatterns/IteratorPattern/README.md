@@ -34,9 +34,9 @@ By using the Iterator Pattern, the system provides an easy-to-use interface for 
 - **Client**: The consumer of the library, such as an IT department, can use the iterator to retrieve and navigate employees based on their relationships without needing to understand the underlying structure.
 
 ### Core Operations:
-1. **getNext()**: Retrieves the next employee in the current relationship (e.g., next direct report, co-worker, or subordinate).
+1. **GetNext()**: Retrieves the next employee in the current relationship (e.g., next direct report, co-worker, or subordinate).
    
-2. **hasNext()**: Checks whether there are more employees left to iterate through in the current hierarchy.
+2. **HasNext()**: Checks whether there are more employees left to iterate through in the current hierarchy.
 
 3. **Flexible Traversal**: The iterator allows consumers to traverse different employee relationships (e.g., direct reports, subordinates) independently, without modifying the underlying employee collection.
 
