@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "src\BehavioralDesignPatterns\StatePattern\StatePattern.csproj", "{E9C33C4F-6D6C-44E5-94C0-79C51FA386DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "src\BehavioralDesignPatterns\MediatorPattern\MediatorPattern.csproj", "{EEC3FE89-7ED8-41C0-89E9-104DE3FEB501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{E9C33C4F-6D6C-44E5-94C0-79C51FA386DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9C33C4F-6D6C-44E5-94C0-79C51FA386DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9C33C4F-6D6C-44E5-94C0-79C51FA386DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC3FE89-7ED8-41C0-89E9-104DE3FEB501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC3FE89-7ED8-41C0-89E9-104DE3FEB501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC3FE89-7ED8-41C0-89E9-104DE3FEB501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC3FE89-7ED8-41C0-89E9-104DE3FEB501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{C9949060-4C38-4BC6-8AA3-517564803BF2} = {1C78C37C-BC4D-470E-8867-3C5384315B1A}
 		{11453369-E9A3-4907-9444-B7A508A4D3E0} = {1C78C37C-BC4D-470E-8867-3C5384315B1A}
 		{E9C33C4F-6D6C-44E5-94C0-79C51FA386DA} = {1C78C37C-BC4D-470E-8867-3C5384315B1A}
+		{EEC3FE89-7ED8-41C0-89E9-104DE3FEB501} = {1C78C37C-BC4D-470E-8867-3C5384315B1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {91EEEB8F-E706-48A5-A119-7EB22EA2D3D0}
