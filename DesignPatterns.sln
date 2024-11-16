@@ -49,7 +49,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "src\Cre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "src\CreationalDesignPatterns\PrototypePattern\PrototypePattern.csproj", "{41EAE1D5-E83F-42E7-B250-F9D36CBC5059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "src\CreationalDesignPatterns\Factory\Factory.csproj", "{19A9CC1F-38AB-419A-AB3F-F24F2CF6FC18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "src\CreationalDesignPatterns\Factory\Factory.csproj", "{19A9CC1F-38AB-419A-AB3F-F24F2CF6FC18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8364B8B-7576-4F77-AB32-4BA44218149D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
